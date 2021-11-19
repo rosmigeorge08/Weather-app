@@ -1,5 +1,5 @@
 let weather = {
-    "apiKey1": "33ccc4e56abfa8a49fb4eec09433941b",
+    "apiKey1": "Your_API_Key",
     fetchWeather: function(city) {
         fetch(
             "https://api.openweathermap.org/data/2.5/weather?q=" 
@@ -62,7 +62,7 @@ let weather = {
 
     
 
-    "apiKey2": "cb3407b917914b8c9c7631dfef637574",
+    "apiKey2": "Your_API_Key",
     fetchAQI: function(city) {
         fetch(
             "https://api.weatherbit.io/v2.0/current/airquality?city=" 
@@ -122,7 +122,7 @@ let weather = {
         document.querySelector(".caution").innerText = "Cautionary Statement: " + caution;
     },
 
-    "apiKey3": "43f42dc14187441b8a10b99a09743d1a",
+    "apiKey3": "Your_API_Key",
     fetchNews: function() {
         fetch(
             "https://newsapi.org/v2/top-headlines?country=in&publishedAt=today&apiKey="  
