@@ -1,5 +1,5 @@
 # Weather-app
-This application gives you the weather details and AQI of every city that you enter. Additionally, there is also a section for news where the top headlines of India would be shown.
+This application provides you the current weather details and AQI of every city that you enter in the search bar. Additionally, there is also a section for news where the top headlines of India would be shown.
 
 # API keys:
 * For Weather: https://openweathermap.org/
